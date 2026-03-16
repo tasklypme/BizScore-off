@@ -1,0 +1,32 @@
+# ── Environnement (SECRETS — ne jamais committer) ────────────
+.env
+.env.local
+.env.production
+.env.staging
+
+# ── Dépendances ───────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ── Build ─────────────────────────────────────────────────────
+dist/
+dist-ssr/
+build/
+.vite/
+
+# ── Cache & logs ──────────────────────────────────────────────
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
